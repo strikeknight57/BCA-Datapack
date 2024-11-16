@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "BCA Custom Village Datapack",
+    "name": "BCA-Datapack",
+    "uuid": "bca7c1a1-85ed-4c1d-8a39-c2c5bf7c9efc",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "description": "Village Replacement for Minecraft",
+      "type": "data",
+      "uuid": "cf123e4b-1023-49f9-8cdd-7a1bc34e8f3f",
+      "version": [1, 0, 0]
+    }
+  ]
+}

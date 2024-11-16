@@ -1,0 +1,16 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "element_type": "minecraft:single_pool_element",
+        "location": "bca:centers/center_battlepad",
+        "projection": "rigid"
+      },
+      {
+        "element_type": "minecraft:single_pool_element",
+        "location": "bca:centers/center_department_store",
+        "projection": "rigid"
+      }
+    ]
+  }
+  

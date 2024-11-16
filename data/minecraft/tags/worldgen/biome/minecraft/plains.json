@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:plains",
+    "features": [
+      {
+        "feature": "minecraft:village",
+        "options": {
+          "structure": "bca:custom_village"
+        }
+      }
+    ]
+  }
+  

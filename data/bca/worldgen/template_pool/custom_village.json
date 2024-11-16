@@ -1,0 +1,24 @@
+{
+    "name": "bca:custom_village",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "bca:center_battlepad",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 9
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "bca:center_department_store",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ]
+}

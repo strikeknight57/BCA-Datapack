@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:savanna",
+    "features": [
+      {
+        "feature": "minecraft:village",
+        "options": {
+          "structure": "bca:custom_village"
+        }
+      }
+    ]
+  }
+  
