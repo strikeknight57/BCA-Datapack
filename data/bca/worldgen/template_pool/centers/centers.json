@@ -1,15 +1,24 @@
 {
-    "fallback": "minecraft:empty",
+  "name": "bca:centers",  
+  "fallback": "minecraft:empty",
     "elements": [
       {
-        "element_type": "minecraft:single_pool_element",
-        "location": "bca:centers/center_battlepad",
-        "projection": "rigid"
+        "weight": 9,
+        "element": {
+          "element_type": "single_pool_element",
+          "location": "bca:centers/center_battlepad",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
       },
       {
-        "element_type": "minecraft:single_pool_element",
-        "location": "bca:centers/center_department_store",
-        "projection": "rigid"
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "bca:centers/center_department_store",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
       }
     ]
   }

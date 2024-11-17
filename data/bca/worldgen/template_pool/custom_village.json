@@ -5,7 +5,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "bca:center_battlepad",
+                "location": "bca:centers/center_battlepad",
                 "processors": "minecraft:empty",
                 "projection": "rigid"
             },
@@ -14,7 +14,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "location": "bca:center_department_store",
+                "location": "bca:centers/center_department_store",
                 "processors": "minecraft:empty",
                 "projection": "rigid"
             },

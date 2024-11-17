@@ -1,48 +1,59 @@
 {
-  "type": "minecraft:structure_pool",
   "name": "bca:paths",
   "fallback": "minecraft:empty",
   "elements": [
     {
+      "weight": 1,
       "element": {
         "location": "bca:paths/path_well_cross_road",
-        "weight": 1,
-        "projection": "rigid"
+        "projection": "rigid", 
+        "element_type": "single_pool_element",
+        "processors": "minecraft:empty"
       }
     },
     {
+      "weight": 1,
       "element": {
         "location": "bca:paths/path_straight-curved",
-        "weight": 1,
-        "projection": "terrain_matching"
+        "element_type": "single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
       }
     },
     {
+      "weight": 1,
       "element": {
         "location": "bca:paths/path_t-joint",
-        "weight": 1,
-        "projection": "terrain_matching"
+        "element_type":"single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
       }
     },
     {
+      "weight": 1,
       "element": {
         "location": "bca:paths/path_90_degree",
-        "weight": 1,
-        "projection": "terrain_matching"
+        "element_type":"single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
       }
     },
     {
+      "weight": 1,
       "element": {
         "location": "bca:paths/path_rare_road",
-        "weight": 1,
-        "projection": "terrain_matching"
+        "element_type":"single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
       }
     },
     {
+      "weight": 1,
       "element": {
         "location": "bca:paths/path_cross_roads",
-        "weight": 1,
-        "projection": "terrain_matching"
+        "element_type":"single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
       }
     }
   ]

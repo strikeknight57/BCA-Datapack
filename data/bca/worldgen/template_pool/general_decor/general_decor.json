@@ -7,7 +7,8 @@
       "element": {
         "location": "bca:general_decor/bench_1",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -15,7 +16,8 @@
       "element": {
         "location": "bca:general_decor/bench_2",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -23,7 +25,8 @@
       "element": {
         "location": "bca:general_decor/bench_3",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -31,7 +34,8 @@
       "element": {
         "location": "bca:general_decor/cart_1",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -39,7 +43,8 @@
       "element": {
         "location": "bca:general_decor/cart_2",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -47,7 +52,8 @@
       "element": {
         "location": "bca:general_decor/small_wagon",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -55,23 +61,26 @@
       "element": {
         "location": "bca:general_decor/berry_stand_1",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
       "weight": 1,
       "element": {
-        "location": "bca:general_decor/berry_stand_2",
+        "location": "bca:general_decor/berrystand_2",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
       "weight": 1,
       "element": {
-        "location": "bca:general_decor/berry_stand_3",
+        "location": "bca:general_decor/berrystand_3",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -79,7 +88,8 @@
       "element": {
         "location": "bca:general_decor/picnic_table_1",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -87,7 +97,8 @@
       "element": {
         "location": "bca:general_decor/picnic_table_2",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -95,23 +106,26 @@
       "element": {
         "location": "bca:general_decor/decor_1",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
       "weight": 1,
       "element": {
-        "location": "bca:general_decor/berry_stand_4",
+        "location": "bca:general_decor/berrystand_4",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
       "weight": 1,
       "element": {
-        "location": "bca:general_decor/berry_stand_5",
+        "location": "bca:general_decor/berrystand_5",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -119,7 +133,8 @@
       "element": {
         "location": "bca:general_decor/decorations_well",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -127,7 +142,8 @@
       "element": {
         "location": "bca:general_decor/decoration_well_2",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -135,7 +151,8 @@
       "element": {
         "location": "bca:general_decor/decor_3",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -143,7 +160,8 @@
       "element": {
         "location": "bca:general_decor/decor_2",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -151,7 +169,8 @@
       "element": {
         "location": "bca:general_decor/market_stall_1",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -159,7 +178,8 @@
       "element": {
         "location": "bca:general_decor/market_stall_2",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -167,7 +187,8 @@
       "element": {
         "location": "bca:general_decor/cart_4",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -175,7 +196,8 @@
       "element": {
         "location": "bca:general_decor/cart_5",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     },
     {
@@ -183,7 +205,8 @@
       "element": {
         "location": "bca:general_decor/cart_6",
         "processors": "minecraft:empty",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "single_pool_element"
       }
     }
   ]
