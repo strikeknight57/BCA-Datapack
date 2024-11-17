@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:structure_pool",
   "name": "bca:store_workers",
   "fallback": "minecraft:empty",
   "elements": [
