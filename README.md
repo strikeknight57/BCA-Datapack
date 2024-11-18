@@ -7,7 +7,7 @@
 ## Features
 
 - **Custom Structures:** Replace vanilla village buildings with a variety of custom-designed structures, each contributing to a vibrant game world.
-- **Unique Town Centers:** Enjoy specially crafted town centers that serve as focal points for villages, including the **Battlepad** and **The Lodge**.
+- **Unique Town Centers:** Enjoy specially crafted town centers that serve as focal points for villages, including the **Battlepad** and **The Department Store**.
 - **Diverse Environment:** Explore different themed buildings, including cozy cottages, bustling PokéMarts, and serene retreats.
 - **Varied Pathways:** Navigate the world with unique pathways that enhance the aesthetic appeal and functionality of your villages.
 - **Dynamic Villager Interaction:** Integrate Cobblemon mechanics with villagers, offering unique interactions and services.
