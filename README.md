@@ -7,29 +7,44 @@
 ## Features
 
 - **Custom Structures:** Replace vanilla village buildings with a variety of custom-designed structures, each contributing to a vibrant game world.
-- **Unique Town Centers:** Enjoy specially crafted town centers that serve as focal points for villages, including the **Battlepad** and **The Department Store**.
+- **Unique Town Centers:** Enjoy specially crafted town centers that serve as focal points for villages, including the **Battlepad** and **The Lodge**.
 - **Diverse Environment:** Explore different themed buildings, including cozy cottages, bustling PokéMarts, and serene retreats.
 - **Varied Pathways:** Navigate the world with unique pathways that enhance the aesthetic appeal and functionality of your villages.
 - **Dynamic Villager Interaction:** Integrate Cobblemon mechanics with villagers, offering unique interactions and services.
 
 ## Installation
 
+For a new world - on world creation:
 1. Ensure you have Minecraft with Fabric installed.
 2. Download the latest release of **Brocraft Cobblemon Additions** from the releases section.
-3. Place the downloaded `.jar` file into the `mods` folder of your Fabric Minecraft installation.
+3. start your loader with your desired mods 
+4. Start world creation
+    - select more
+    - select datapacks
+    - open folder
+    - Place the downloaded `.zip` file 
+    - click the arrow to the right to add it to the enabled list.
 4. Launch Minecraft and enjoy!
 
+Installing on an existing instance:
+1. open your instance folder
+2. navigate to .{instance}/saves/{YourWorld}/datapacks/
+3. paste the .zip file into the `datapack` folder of your Minecraft world. 
+4. restart your instance of minecraft
+5. enjoy the new villages in new generated chunks of your world
+    - for best integration, use MCA chunk selector to manually clear chunks from your world so they can generate back into the world
+
+    
 ## Dependencies
 
-- **Cobblemon version 1.5.2**
-- **Cobblemon - Loot Balls version 1.1.4**
-- **Cobblemon Pokedex (Cobbledex) version 1.1.0**
-- **Cobblemon Pokenav version 0.6.8**
-- **Radical Cobblemon Trainers version 0.11.1-alpha**
-- **[EMF] Entity Model Features version 2.2.6**
-- **[ETF] Entity Texture Features version 6.2.5**
+- **Cobblemon 1.6.1**
+- **waystones**
+- **Sophisticated backpacks**(optional)
+- **Traveler's backpacks**(optional)
+- **Pokenav**(optional)
 
-- **it is also recommended that you use the cobblefolk datapack that comes with the cobbletowns mod for the best immersion**
+
+- **it is also recommended that you use the cobblefolk datapack that comes with the cobbletowns mod for the best immersion with EMF and ETF**
 
 ## Structure Pools
 
