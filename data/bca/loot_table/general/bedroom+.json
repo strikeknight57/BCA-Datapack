@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        // === Common Minecraft Items (weight: 25) ===
+        { "type": "minecraft:item", "name": "minecraft:white_bed", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:blue_bed", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:book", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:paper", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:clock", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:feather", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:written_book", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:experience_bottle", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:quill", "weight": 25 },
+
+        // === Common Cobblemon Trainer Items (weight: 25) ===
+        { "type": "minecraft:item", "name": "cobblemon:poke_ball", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:potion", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:antidote", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:awakening", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:paralyze_heal", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:lava_cookie", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:oran_berry", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:sitrus_berry", "weight": 25 },
+
+        // === Rare Trainer & Tech Items (weight: 8) ===
+        { "type": "minecraft:item", "name": "minecraft:ender_pearl", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:spyglass", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:revive", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:full_heal", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:super_potion", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:nugget", "weight": 8 },
+
+        // === Extremely Rare Items (weight: 1) ===
+        { "type": "minecraft:item", "name": "cobblemon:xp_candy_m", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:exp_share", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:rare_candy", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:eviolite", "weight": 1 },
+
+        // === Optional Modded Items ===
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:backpack",
+          "weight": 8,
+          "conditions": [{ "condition": "minecraft:mod_loaded", "modid": "sophisticatedbackpacks" }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "travelersbackpack:standard_backpack",
+          "weight": 8,
+          "conditions": [{ "condition": "minecraft:mod_loaded", "modid": "travelersbackpack" }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokenav:healing_module",
+          "weight": 8,
+          "conditions": [{ "condition": "minecraft:mod_loaded", "modid": "pokenav" }]
+        }
+      ]
+    }
+  ]
+}

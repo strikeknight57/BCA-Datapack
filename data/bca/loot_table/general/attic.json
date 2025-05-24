@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "item", "name": "cobblemon:ancient_pokeball", "weight": 25 },
+        { "type": "item", "name": "cobblemon:apricorn", "weight": 25 },
+        { "type": "item", "name": "minecraft:iron_ingot", "weight": 25 },
+        { "type": "item", "name": "minecraft:gold_ingot", "weight": 25 },
+        { "type": "item", "name": "minecraft:string", "weight": 25 },
+        { "type": "item", "name": "minecraft:leather", "weight": 25 },
+        { "type": "item", "name": "cobblemon:light_clay", "weight": 25 },
+        
+        { "type": "item", "name": "cobblemon:miracle_seed", "weight": 8 },
+        { "type": "item", "name": "cobblemon:great_ball", "weight": 8 },
+        { "type": "item", "name": "cobblemon:ultra_ball", "weight": 8 },
+        { "type": "item", "name": "cobblemon:everstone", "weight": 8 },
+        { "type": "item", "name": "cobblemon:metal_powder", "weight": 8 },
+        
+        { "type": "item", "name": "cobblemon:choice_band", "weight": 1 },
+        { "type": "item", "name": "cobblemon:pokerod", "weight": 1 },
+        { "type": "item", "name": "cobblemon:assault_vest", "weight": 1 },
+        { "type": "item", "name": "cobblemon:binding_band", "weight": 1 },
+        { "type": "item", "name": "cobblemon:black_belt", "weight": 1 },
+        { "type": "item", "name": "cobblemon:black_sludge", "weight": 1 },
+        { "type": "item", "name": "cobblemon:eviolite", "weight": 1 },
+        { "type": "item", "name": "cobblemon:iron_ball", "weight": 1 },
+        { "type": "item", "name": "cobblemon:bright_powder", "weight": 1 },
+        { "type": "item", "name": "cobblemon:dragon_fang", "weight": 1 },
+        { "type": "item", "name": "cobblemon:float_stone", "weight": 1 },
+        { "type": "item", "name": "cobblemon:life_orb", "weight": 1 },
+        { "type": "item", "name": "cobblemon:light_ball", "weight": 1 }
+      ]
+    }
+  ]
+}

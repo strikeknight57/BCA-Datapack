@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:book", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:paper", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:lantern", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:painting", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:poke_ball", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:apricorn", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:revive", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:healing_powder", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:leather_boots", "weight": 25 },
+
+        { "type": "minecraft:item", "name": "cobblemon:great_ball", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:rare_candy", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:xp_candy_small", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:link_cable", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:cleanse_tag", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:poketch", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:name_tag", "weight": 8 },
+
+        { "type": "minecraft:item", "name": "cobblemon:ultra_ball", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:xp_candy_medium", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:heavy_duty_boots", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:pokedex", "weight": 1 },
+        { "type": "minecraft:item", "name": "waystones:warp_scroll", "weight": 1 },
+        { "type": "minecraft:item", "name": "pokenav:trainer_card", "weight": 1 }
+      ]
+    }
+  ]
+}

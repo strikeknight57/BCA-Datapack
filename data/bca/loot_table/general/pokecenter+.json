@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+
+        // Common Items
+        { "type": "minecraft:item", "name": "minecraft:potion", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:heal_powder", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:antidote", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:burn_heal", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:paralyze_heal", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:glass_bottle", "weight": 25 },
+
+        // Rare Items
+        { "type": "minecraft:item", "name": "cobblemon:revive", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:super_potion", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:hyper_potion", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:great_ball", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:full_heal", "weight": 8 },
+
+        // Very Rare Items
+        { "type": "minecraft:item", "name": "cobblemon:max_potion", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:max_revive", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:master_ball", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:rare_candy", "weight": 1 },
+
+        // Optional Modded Items (Fabric-safe)
+        {
+          "type": "minecraft:item",
+          "name": "pokenav:pokenav",
+          "weight": 8,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:item",
+                "items": ["pokenav:pokenav"]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "travelersbackpack:backpack",
+          "weight": 8,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:item",
+                "items": ["travelersbackpack:backpack"]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:basic_backpack",
+          "weight": 8,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:item",
+                "items": ["sophisticatedbackpacks:basic_backpack"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

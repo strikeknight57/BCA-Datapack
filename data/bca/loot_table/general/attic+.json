@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "entries": [
+
+
+        { "type": "minecraft:item", "name": "cobblemon:ancient_pokeball", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:ancient_great_ball", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:ancient_ultra_ball", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:red_apricorn", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:yellow_apricorn", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:gold_ingot", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:string", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:leather", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:light_clay", "weight": 25 },
+
+
+        { "type": "minecraft:item", "name": "cobblemon:miracle_seed", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:great_ball", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:dusk_ball", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:metal_powder", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:everstone", "weight": 8 },
+
+
+        { "type": "minecraft:item", "name": "cobblemon:choice_band", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:pokerod", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:assault_vest", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:binding_band", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:black_belt", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:black_sludge", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:eviolite", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:iron_ball", "weight": 1 },
+
+
+        { "type": "minecraft:item", "name": "cobblemon:bright_powder", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:dragon_fang", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:float_stone", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:life_orb", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:light_ball", "weight": 1 },
+
+
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:upgrade_base",
+          "weight": 8,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:item",
+                "items": ["sophisticatedbackpacks:upgrade_base"]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokenav:pokenav",
+          "weight": 8,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:item",
+                "items": ["pokenav:pokenav"]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "travelersbackpack:inventory_upgrade",
+          "weight": 8,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:item",
+                "items": ["travelersbackpack:inventory_upgrade"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

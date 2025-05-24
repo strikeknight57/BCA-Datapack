@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:village/plains/town_centers",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "bca:centers/center_small_battlepad_road",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    }
+  ]
+}

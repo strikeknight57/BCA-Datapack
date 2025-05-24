@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        // === Common Minecraft Food Items (weight: 25) ===
+        { "type": "minecraft:item", "name": "minecraft:bread", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:apple", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:baked_potato", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:cooked_chicken", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:cooked_porkchop", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:cooked_beef", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:cooked_mutton", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:pumpkin_pie", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:rabbit_stew", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:mushroom_stew", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:beetroot_soup", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:dried_kelp", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:sweet_berries", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:honey_bottle", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:milk_bucket", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:egg", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:sugar", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:wheat", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:bowl", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:glass_bottle", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:water_bucket", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:coal", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:redstone", "weight": 25 },
+        { "type": "minecraft:item", "name": "minecraft:torchflower_seeds", "weight": 25 },
+
+        // === Common Cobblemon Items (weight: 25) ===
+        { "type": "minecraft:item", "name": "cobblemon:vivichoke_dip", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:leek_and_potato_stew", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:braised_vivichoke", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:medicinal_leek", "weight": 25 },
+        { "type": "minecraft:item", "name": "cobblemon:roasted_leek", "weight": 25 },
+
+        // === Rare Minecraft & Cobblemon Food Items (weight: 8) ===
+        { "type": "minecraft:item", "name": "minecraft:golden_carrot", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:popped_chorus_fruit", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:glistering_melon_slice", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:energy_root", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:revival_herb", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:big_root", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:remedy", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:fine_remedy", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:superb_remedy", "weight": 8 },
+        { "type": "minecraft:item", "name": "cobblemon:heal_powder", "weight": 8 },
+
+        // === Extremely Rare Items (weight: 1) ===
+        { "type": "minecraft:item", "name": "cobblemon:berry_sweet", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:strawberry_sweet", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:leftovers", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:twisted_spoon", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:charcoal_stick", "weight": 1 },
+        { "type": "minecraft:item", "name": "cobblemon:lucky_egg", "weight": 1 },
+
+        // === Optional Items from Mods ===
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:compacting_upgrade",
+          "weight": 8,
+          "conditions": [{ "condition": "minecraft:mod_loaded", "modid": "sophisticatedbackpacks" }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "travelersbackpack:sleeping_bag",
+          "weight": 8,
+          "conditions": [{ "condition": "minecraft:mod_loaded", "modid": "travelersbackpack" }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokenav:map_module",
+          "weight": 8,
+          "conditions": [{ "condition": "minecraft:mod_loaded", "modid": "pokenav" }]
+        }
+      ]
+    }
+  ]
+}
